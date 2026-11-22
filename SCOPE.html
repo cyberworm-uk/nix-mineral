@@ -75,10 +75,12 @@
             <div class="sidebar-section-content">
               <ul>
                 <li><a href="index.html">Nix Mineral</a></li>
-<li><a href="SCOPE.html">1. Scope</a></li>
-<li><a href="CONTRIBUTING.html">2. Contributing</a></li>
-<li><a href="OMITTED.html">3. Omitted Features</a></li>
+<li><a href="FAQ.html">1. Frequently asked questions</a></li>
+<li><a href="CAVEATS.html">2. Caveats</a></li>
+<li><a href="SCOPE.html">3. Scope</a></li>
 <li><a href="ADDITIONAL-RESOURCES.html">4. Additional Resources</a></li>
+<li><a href="OMITTED.html">5. Omitted Features</a></li>
+<li><a href="CONTRIBUTING.html">6. Contributing</a></li>
 <li><a href="search.html">Search</a></li>
 
               </ul>
@@ -97,11 +99,12 @@
         </nav>
 
         <main class="content"><html><head></head><body><h1 id="scope">Scope</h1>
-<p>By default, <code>nix-mineral</code> reduces attack surface by securely configuring existing software.</p>
+<p>By default, <code>nix-mineral</code> provides a configuration baseline for existing software
+to reduce attack surface.</p>
 <p>It is intended to be used for defense-in-depth purposes only. It is not, and will not
 ever be intended as a substitute to the implementation of core security practices such
-as good OPSEC (operations security), sandboxing, zero trust, or any other primary guiding
-principle or framework.</p>
+as strong OPSEC (operations security), sandboxing, privilege separation, or any other
+primary guiding principle or framework.</p>
 <p>For development simplicity, target systems are assumed to be running <code>nixos-unstable</code>.
 Incompatibility may occur with renamed options, which should be manually overridden if necessary.</p>
 <p><code>nix-mineral</code> aims to serve as a drop-in addition to any NixOS system.</p>
